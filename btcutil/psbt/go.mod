@@ -1,6 +1,6 @@
 module github.com/btcsuite/btcd/btcutil/psbt
 
-go 1.22
+go 1.24.0
 
 require (
 	github.com/btcsuite/btcd v0.23.5-0.20231219003633-4c2ce6daed8f
@@ -16,7 +16,7 @@ require (
 	github.com/decred/dcrd/crypto/blake256 v1.0.0 // indirect
 	github.com/decred/dcrd/dcrec/secp256k1/v4 v4.0.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	golang.org/x/crypto v0.0.0-20200622213623-75b288015ac9 // indirect
-	golang.org/x/sys v0.0.0-20200814200057-3d37ad5750ed // indirect
+	golang.org/x/crypto v0.45.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
